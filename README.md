@@ -66,3 +66,7 @@ The dataset presents a highly imbalanced classification problem, making evaluati
 - Random Forest
 - XGBoost
 
+## Model Comparison
+
+| Model | Recall | Precision | F1-Score |
+|---|---|---|---|
