@@ -21,6 +21,7 @@ One of the key findings of the project was the existence of significante overlap
 ## Business Problem
 Unexpected industrial machine failures can generate significant operational costs, production downtime, maintenance delays, and safety risks in manufacturing environments.
 
+
 Traditional corrective maintenance strategies react only after a failure occurs, which may lead to expensive repairs and interruptions in production processes. Predictive maintenance aims to reduce these risks by identifying potential failures before they happen using machine telemetry data.
 
 However, this problem presents an important operational trade-off. In this context:
@@ -31,3 +32,37 @@ However, this problem presents an important operational trade-off. In this conte
 Because of this, the project focuses not only on maximizing predective performance, but on finding an operational viable valance between failure detection and excessive false alarms.
 
 The dataset also presents a highly imbalanced classification problem, making evaluation metrics such as recall, precision, F1-score especially important during model selection.
+
+## Dataset
+
+The project uses the AI$I 2020 Predective Maintenance Dataset, which contains telemetry sensro data collected from industrial machines.
+
+Main variables include:
+- Air temperature
+- Process temperature
+- Rotational speed
+- Torque
+- Tool wear
+
+The dataset presents a highly imbalanced classification problem, making evaluation metrics and operational trade-offs specially important.
+
+## Workflow
+
+1. Business understanding
+2. Exploratory Data Analysis (EDA)
+3. Data preprocessing
+4. Imbalance classification handling
+5. Baseline modeling
+6. Model comparison
+7. Hyperparameter tuning
+8. Error analysis
+9. Model interpretability
+10. Final conclusion
+
+## Models Evaluated
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- XGBoost
+
