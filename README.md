@@ -70,3 +70,8 @@ The dataset presents a highly imbalanced classification problem, making evaluati
 
 | Model | Recall | Precision | F1-Score |
 |---|---|---|---|
+| Logistic Regression | 0.80 | 0.13 | 0.23 |
+| Decision Tree | 0.61 | 0.68 | 0.64 |
+| Random Forest | 0.43 | 0.91 | 0.58 |
+| XGBoost (Recall optimized) | 0.95 | 0.23 | 0.37|
+| XGBoost (F1 optimized) | 0.76 | 0.70 | 0.73 |
