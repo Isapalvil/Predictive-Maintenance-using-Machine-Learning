@@ -75,3 +75,72 @@ The dataset presents a highly imbalanced classification problem, making evaluati
 | Random Forest | 0.43 | 0.91 | 0.58 |
 | XGBoost (Recall optimized) | 0.95 | 0.23 | 0.37|
 | XGBoost (F1 optimized) | 0.76 | 0.70 | 0.73 |
+
+The initial Logistic Regression baeline achieved high recall but generated an excessive number of false positives, resulting in very low precision. This behavior suggested that the model was overly aggressive when identifying potential failures.
+
+Decision Tree improved the balance between recall and precision considerably, while Random Forest achieved very hich precision at the cost of missing a larger number of true failures.
+
+Two tunning strategies were explored for XGBoost:
+- Recall optimization prioritized maximum failure detection but introduced excessive false alarms.
+- F1-score optimization produced a more balanced operational solution by maintaning strong recall while significantly improving precision.
+
+The final XGBoost model oprimized for f2-score achieved the best operational trade-off between detecting failures and minimizing unnecesary maintenance interventions.
+
+## Final Model Selection
+
+The final selected model was the XGBoost classifier optimized for F1-score
+
+Although the recall-optimized XGBoost model achieved higher failure detection rates, it also generated a very large number of false positives, making the solution operationally expensive due to excessive unnecessaary maintenance alerts.
+
+On the other hande, the F1-optimized XGBoost model achieved a more balanced trade-off between recall and precision:
+- It maintained strong failure detection capability.
+- It significantly reduced false alarms compared to the recall-focused approach.
+- It provided a more operationally viable solution for real-word industrial environments.
+
+The final decision prioritized operational balance rather than maximizing a single metric in isolation.
+
+This approach reflects a more realistic predictive maintenance strategy, where both missed failures and excessive maintenance interventions generate important business costs.
+
+## Key Insights
+
+- Rotational speed and torque were among the most influential variables.
+- Significant overlao existed between failure and non-failure operational states.
+- Optimizing exclusively for recall generated excessive false positives.
+- XGBoost achieve the best operational balance for the problem
+
+## Error Analysis 
+
+A detailed analysis of False Positives and False NEgatives was performed to better understand the operational limitations of the model.
+
+One of the most important findings was that many incorrectly classified samples shared very similar telemetry patterns with correctly classified observations. In particular:
+- Low torque values frequently appeared in both failure and non-failure states.
+- Rotational speed distributions showed strong overlap between classes.
+- Tool wear maintained similar ranges across several correctly and incorrectly classified samples.
+
+These findings suggest that some machine failures may not be fully distinguisbhable using isolated telemetry snapshots alone.
+
+Additionally:
+- False Positives may generate unnecessary inspections or preventive maintenance actions.
+- False Negatives remain specially critical because indetected failures can lead to unexpected downtime and operational costs.
+
+Despite these limitations, the selected XGBoost model achieved a reasonable operational balance between failure detection and false alarm reduction.
+
+The analysis aldo suggests that future improvements could benefit from:
+- Sequential telemetry data
+- Time-series approaches
+- Temporal behaivor modeling rather than relying exclusively on instantaneous sensor measurements.
+
+## Limitations 
+
+The project uses instantaneous telemetry snapshots rather than sequential temporal data. Some failure patterns may require time-series or sequential modeling approaches to improve predictive capability.
+
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- XGBoost
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
