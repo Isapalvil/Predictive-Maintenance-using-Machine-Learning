@@ -61,6 +61,17 @@ Several operational variables appeared to contribute differently to machine beha
 
 <img width="691" height="588" alt="download" src="https://github.com/user-attachments/assets/88ad4fca-af87-47ef-b59d-c6ddcdfe4598" />
 
+Feature distribution analysis revealed significant overlap between failure and non-failure operational states.
+
+In particular:
+- Torque values frequently overlapped across both classes.
+- Rotational speed showed broad distributions with no clear linear separation.
+- Tool wear exhibited similar ranges in both correctly and incorrectly classified observations.
+
+These findings suggested that machine failures may not be easily separable using simple linear decision boundaries alone.
+
+<img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/08c64196-dab2-4e09-a2b5-b3964a2f1bb1" />
+
 ## Workflow
 
 1. Business understanding
