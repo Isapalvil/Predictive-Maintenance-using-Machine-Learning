@@ -45,6 +45,14 @@ Main variables include:
 
 The dataset presents a highly imbalanced classification problem, making evaluation metrics and operational trade-offs specially important.
 
+## Exploratory Data Analysis (EDA)
+
+The exploratory analysis focused on understanding class imabalance, identifying potential relationships between telemetry variables and machine failures, and detecting operational patterns that could impact model performance.
+
+The dataset presented a highly imbalanced classification problem, with machine failures representing only a small percentage of total observations.
+
+This imbalance created an important modeling challenge because traditional accuracy metrics could be misleading. As a result, recall, precision and F1-score became more relevant evaluation metrics through the project.
+
 <img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/85ed1330-fe34-4918-9547-9eeb595be656" />
 
 ## Workflow
