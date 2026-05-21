@@ -104,12 +104,16 @@ The final decision prioritized operational balance rather than maximizing a sing
 
 This approach reflects a more realistic predictive maintenance strategy, where both missed failures and excessive maintenance interventions generate important business costs.
 
+<img width="1089" height="690" alt="download" src="https://github.com/user-attachments/assets/4b4d0be7-5caa-4d68-98c1-70395c46507b" />
+
 ## Key Insights
 
 - Rotational speed and torque were among the most influential variables.
 - Significant overlao existed between failure and non-failure operational states.
 - Optimizing exclusively for recall generated excessive false positives.
 - XGBoost achieve the best operational balance for the problem
+
+<img width="1089" height="690" alt="download" src="https://github.com/user-attachments/assets/44ea2a7a-9534-4d3c-a2f3-946562d406cf" />
 
 ## Error Analysis 
 
