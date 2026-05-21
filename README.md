@@ -55,6 +55,12 @@ This imbalance created an important modeling challenge because traditional accur
 
 <img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/85ed1330-fe34-4918-9547-9eeb595be656" />
 
+Correlation analysis showed moderate relationships between some telemetry variables, although no extreme multicollinearity issues were detected.
+
+Several operational variables appeared to contribute differently to machine behavior, suggesting that non-linear relationships could exist between telemetry signals and failure states.
+
+<img width="691" height="588" alt="download" src="https://github.com/user-attachments/assets/88ad4fca-af87-47ef-b59d-c6ddcdfe4598" />
+
 ## Workflow
 
 1. Business understanding
