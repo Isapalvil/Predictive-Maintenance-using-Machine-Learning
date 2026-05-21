@@ -45,7 +45,7 @@ Main variables include:
 
 The dataset presents a highly imbalanced classification problem, making evaluation metrics and operational trade-offs specially important.
 
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/f9254f5b-bcea-4863-9805-c7cca2045473" />
+<img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/85ed1330-fe34-4918-9547-9eeb595be656" />
 
 ## Workflow
 
@@ -76,6 +76,8 @@ The dataset presents a highly imbalanced classification problem, making evaluati
 | Random Forest | 0.43 | 0.91 | 0.58 |
 | XGBoost (Recall optimized) | 0.95 | 0.23 | 0.37|
 | XGBoost (F1 optimized) | 0.76 | 0.70 | 0.73 |
+
+<img width="1089" height="690" alt="download" src="https://github.com/user-attachments/assets/cd8be71d-77bb-4fc3-aa60-a0602774d63b" />
 
 The initial Logistic Regression baeline achieved high recall but generated an excessive number of false positives, resulting in very low precision. This behavior suggested that the model was overly aggressive when identifying potential failures.
 
