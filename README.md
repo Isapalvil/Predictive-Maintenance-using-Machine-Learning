@@ -21,7 +21,6 @@ One of the key findings of the project was the existence of significante overlap
 ## Business Problem
 Unexpected industrial machine failures can generate significant operational costs, production downtime, maintenance delays, and safety risks in manufacturing environments.
 
-
 Traditional corrective maintenance strategies react only after a failure occurs, which may lead to expensive repairs and interruptions in production processes. Predictive maintenance aims to reduce these risks by identifying potential failures before they happen using machine telemetry data.
 
 However, this problem presents an important operational trade-off. In this context:
@@ -45,6 +44,8 @@ Main variables include:
 - Tool wear
 
 The dataset presents a highly imbalanced classification problem, making evaluation metrics and operational trade-offs specially important.
+
+<img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/f9254f5b-bcea-4863-9805-c7cca2045473" />
 
 ## Workflow
 
