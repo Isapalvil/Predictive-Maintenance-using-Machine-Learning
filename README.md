@@ -45,7 +45,7 @@ Main variables include:
 
 The dataset presents a highly imbalanced classification problem, making evaluation metrics and operational trade-offs specially important.
 
-<img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/f9254f5b-bcea-4863-9805-c7cca2045473" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/f9254f5b-bcea-4863-9805-c7cca2045473" />
 
 ## Workflow
 
