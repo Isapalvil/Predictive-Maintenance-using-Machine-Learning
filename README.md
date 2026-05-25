@@ -81,7 +81,7 @@ Correlation analysis revealed moderate relationships between some telemetry vari
 
 Several variables appeared to contribute differently to machine behavior, suggesting the presence of non-linear relationships between telemetry signals and machine failures.
 
-<img width="691" height="588" alt="download" src="https://github.com/user-attachments/assets/88ad4fca-af87-47ef-b59d-c6ddcdfe4598" />
+<img width="691" height="588" alt="download" src="https://github.com/user-attachments/assets/d6fc698f-0258-47f0-8387-12a92cec6ab8" />
 
 Feature distribution analysis revealed significant overlap between failure and non-failure operational states.
 
@@ -93,7 +93,7 @@ Key observations included:
 
 These findings suggested that machine failures may not be easily separable using simple linear decision boundaries alone.
 
-<img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/08c64196-dab2-4e09-a2b5-b3964a2f1bb1" />
+<img width="563" height="453" alt="download" src="https://github.com/user-attachments/assets/e348c03c-2225-443a-bf34-dcceae201c74" />
 
 ## Models Evaluated
 
@@ -112,7 +112,7 @@ These findings suggested that machine failures may not be easily separable using
 | XGBoost (Recall optimized) | 0.95 | 0.23 | 0.37|
 | XGBoost (F1 optimized) | 0.76 | 0.70 | 0.73 |
 
-<img width="1089" height="690" alt="download" src="https://github.com/user-attachments/assets/cd8be71d-77bb-4fc3-aa60-a0602774d63b" />
+<img width="1089" height="690" alt="download" src="https://github.com/user-attachments/assets/7eaaf663-2bae-4233-81fb-c6e584f43b91" />
 
 The baseline Logistic Regression model achieved high recall but generated a large number of false positives, resulting in very low precision. This behavior suggested that the model was overly aggressive when identifying potential failures.
 
