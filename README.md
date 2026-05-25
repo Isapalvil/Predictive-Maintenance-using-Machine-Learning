@@ -75,8 +75,7 @@ The dataset showed a strong class imbalance, with machine failures representing 
 
 As a result, traditional accuracy metrics became less informative, while recall, precision, and F1-score played a more important role throughout model evaluation.
 
-<img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/85ed1330-fe34-4918-9547-9eeb595be656" />
-
+<img width="589" height="453" alt="download" src="https://github.com/user-attachments/assets/1b05daed-3451-4579-885c-628aca48b272" />
 
 Correlation analysis revealed moderate relationships between some telemetry variables, although no severe multicollinearity issues were detected.
 
